@@ -1,0 +1,39 @@
+.film__wrapper {
+  display: flex;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: white;
+  width: 100%;
+}
+
+.film__poster img {
+  border-radius: 8px;
+}
+
+.film__row {
+  margin-left: 24px;
+  flex: 1 1 auto;
+}
+
+.film__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.film__right {
+  display: flex;
+  align-items: center;
+}
+
+.film__title a {
+  color: var(--text-primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.film__genre {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=film_card.module.css.map */

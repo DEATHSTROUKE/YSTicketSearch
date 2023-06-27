@@ -5,6 +5,7 @@
   --text-tertiary: #999FA6;
   --orange: #F50;
   --orange-disabled: #FFA375;
+  --gray-5: #E0E0E0;
 }
 
 html, body {
@@ -18,6 +19,7 @@ body {
   sans-serif;
   font-weight: 400;
   color: var(--text-primary);
+  line-height: 24px;
 }
 
 *, :after, :before {

@@ -5,6 +5,7 @@
   --text-tertiary: #999FA6;
   --orange: #F50;
   --orange-disabled: #FFA375;
+  --gray-5: #E0E0E0;
 }
 
 html, body {
@@ -16,6 +17,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   color: var(--text-primary);
+  line-height: 24px;
 }
 
 *, :after, :before {

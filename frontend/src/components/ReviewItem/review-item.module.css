@@ -1,0 +1,42 @@
+.review__wrapper {
+  display: flex;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: white;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.review__img {
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-5);
+  flex: 1 0 auto;
+}
+
+.review__row {
+  margin-left: 24px;
+}
+
+.review__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.review__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review__right {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=review-item.module.css.map */
