@@ -1,4 +1,4 @@
-:root {
+:root{
   --gray-1: #333;
   --bg-color: #F5F5F5;
   --text-primary: #1B1F23;
@@ -13,7 +13,9 @@ html, body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   font-weight: 400;
   color: var(--text-primary);
 }
@@ -29,9 +31,10 @@ body {
 a {
   text-decoration: none;
   color: white;
-}
-a:hover {
-  color: ghostwhite;
+
+  &:hover {
+    color: ghostwhite;
+  }
 }
 
 button {
@@ -52,5 +55,3 @@ button {
   padding: 24px 32px;
   background: var(--bg-color);
 }
-
-/*# sourceMappingURL=globals.css.map */

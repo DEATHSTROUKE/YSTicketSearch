@@ -1,0 +1,21 @@
+.count__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: var(--orange);
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.text {
+    margin: 0 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn_disabled {
+    background: var(--orange-disabled);
+}

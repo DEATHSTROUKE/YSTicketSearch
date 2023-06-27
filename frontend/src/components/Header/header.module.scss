@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+  background: var(--gray-1);
+  display: flex;
+  padding: 24px 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

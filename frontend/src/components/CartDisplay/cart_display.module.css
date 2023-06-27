@@ -1,0 +1,9 @@
+.block {
+    background: var(--orange);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 5px;
+}

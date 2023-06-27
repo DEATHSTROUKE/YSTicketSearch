@@ -1,0 +1,59 @@
+.modal__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: absolute;
+  border-radius: 8px;
+  background: white;
+  padding: 24px;
+  width: 344px;
+  height: 168px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.modal__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.text {
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.btn__yes {
+  background: var(--orange);
+  color: white;
+  margin-right: 10px;
+}
+
+.btn__no {
+  background: transparent;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+/*# sourceMappingURL=modal.module.css.map */

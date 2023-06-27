@@ -1,0 +1,35 @@
+.faq__wrapper {
+    line-height: 32px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 24px;
+    background: white;
+}
+
+.question {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 24px;
+    background: white;
+}
+
+.question__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.question__text {
+    margin-top: 16px;
+    margin-right: 20px;
+}
