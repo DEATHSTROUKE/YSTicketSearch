@@ -1,5 +1,9 @@
+import ReviewItem from "@/components/ReviewItem/ReviewItem";
+
 const ReviewList = () => {
-  return <h1></h1>
-}
+  return <>
+    <ReviewItem />
+  </>;
+};
 
 export default ReviewList;

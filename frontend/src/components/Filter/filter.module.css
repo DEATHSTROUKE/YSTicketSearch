@@ -1,3 +1,29 @@
+.filter__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
+.field {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font: "SF Pro Text", Helvetica, Arial, san-serif;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--text-tertiary);
+}
+.input input {
+  border: none;
+  background: transparent;
+}
+
+.placeholder {
+  color: var(--text-tertiary);
+}
 
 /*# sourceMappingURL=filter.module.css.map */
