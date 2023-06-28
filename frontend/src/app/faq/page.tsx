@@ -1,7 +1,5 @@
 import s from "./faq.module.css";
-import ArrowSvg from "@/../public/arrow.svg";
 import Question from "@/components/Question/Question";
-
 
 const Faq = () => {
   return <div className={s.faq__wrapper}>

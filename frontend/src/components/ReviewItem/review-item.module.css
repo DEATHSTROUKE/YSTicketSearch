@@ -15,11 +15,12 @@
   justify-content: center;
   align-items: center;
   background: var(--gray-5);
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .review__row {
   margin-left: 24px;
+  flex: 1 1 auto;
 }
 
 .review__line {

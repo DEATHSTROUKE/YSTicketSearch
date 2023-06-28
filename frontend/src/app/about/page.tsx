@@ -1,6 +1,10 @@
 import { Metadata } from "next";
 import s from "./about.module.css";
 
+export const metaData: Metadata = {
+  title: "О нас",
+};
+
 const About = () => {
   return <div className={s.about_wrapper}>
     <h1 className={s.title}>О нас</h1>

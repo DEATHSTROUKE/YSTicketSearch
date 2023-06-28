@@ -1,9 +1,14 @@
+"use client"
+
 import s from './cart_display.module.css'
+import { useTotal } from "@/store/features/cart/cartSlice";
 
 const CartDisplay = () => {
-  return <div className={s.block}>
-    19
-  </div>;
+  const total = useTotal();
+
+  return <>
+    { total > 0 ? <div className={s.block}>{total}</div> : ''}
+  </>
 }
 
 export default CartDisplay;
