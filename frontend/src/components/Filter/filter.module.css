@@ -7,23 +7,29 @@
 .field {
   margin-bottom: 16px;
   font-size: 14px;
-  font: "SF Pro Text", Helvetica, Arial, san-serif;
+  font-family: var(--font-sf);
 }
 
 .input {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 16px;
   border-radius: 8px;
   border: 1px solid var(--text-tertiary);
 }
 .input input {
+  width: 100%;
   border: none;
   background: transparent;
 }
 
 .placeholder {
   color: var(--text-tertiary);
+}
+
+.img__wrapper {
+  display: flex;
 }
 
 /*# sourceMappingURL=filter.module.css.map */

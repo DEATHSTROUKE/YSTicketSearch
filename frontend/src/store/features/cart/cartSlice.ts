@@ -140,7 +140,6 @@ export const useTotal = () => {
 
 export const useGetFilm = (id: string) => {
   return useSelector(state => {
-    console.log(state);
     return state.cart.items.find(item => item.id === id);
   });
 };

@@ -30,6 +30,7 @@ const CartList = () => {
   }, [closeModal, onConfirm]);
 
   return <>
+    {(cartItems && cartItems.length === 0) ? "Корзина пуста" : ""}
     {cartItems.map(item => <CartFilmCard
       key={item.id}
       film={item}

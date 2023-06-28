@@ -10,6 +10,14 @@ const CartFilmCard = ({ film, onDelete }) => {
   const { quantity, incQuantity, decQuantity } = useFilmQuantity(film);
   const { id, posterUrl, genre, title } = film;
 
+  const onMinusClick = () => {
+    if (quantity > 1) {
+      decQuantity();
+    } else {
+      onDelete(film);
+    }
+  };
+
   return <div className={s.film__wrapper}>
     <div className={s.film__poster}>
       <Image src={posterUrl}
@@ -24,10 +32,10 @@ const CartFilmCard = ({ film, onDelete }) => {
           <Link href={"/films/" + id}>{title}</Link>
         </div>
         <div className={s.film__right}>
-          <div style={{marginRight: 10}}>
+          <div style={{ marginRight: 10 }}>
             <TicketsCount quantity={quantity}
                           incQuantity={incQuantity}
-                          decQuantity={decQuantity}
+                          decQuantity={onMinusClick}
             />
           </div>
           <DeleteFilm callback={() => onDelete(film)} />
